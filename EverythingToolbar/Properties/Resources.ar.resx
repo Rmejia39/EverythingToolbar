@@ -1,0 +1,492 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string"/>
+              <xsd:attribute name="type" type="xsd:string"/>
+              <xsd:attribute name="mimetype" type="xsd:string"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string"/>
+              <xsd:attribute name="name" type="xsd:string"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+              <xsd:attribute ref="xml:space"/>
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required"/>
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AboutLicense" xml:space="preserve">
+    <value>الترخيص</value>
+  </data>
+  <data name="AboutOK" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="AboutVersion" xml:space="preserve">
+    <value>الإصدار</value>
+  </data>
+  <data name="AboutWebsite" xml:space="preserve">
+    <value>الموقع الإلكتروني</value>
+  </data>
+  <data name="AboutWindowTitle" xml:space="preserve">
+    <value>حول EverythingToolbar،</value>
+  </data>
+  <data name="ContextMenuCopy" xml:space="preserve">
+    <value>نسخ</value>
+  </data>
+  <data name="ContextMenuCopyFile" xml:space="preserve">
+    <value>نسخ ملف</value>
+  </data>
+  <data name="ContextMenuCopyFullName" xml:space="preserve">
+    <value>إنسخ الاسم الكامل إلى الحافظة</value>
+  </data>
+  <data name="ContextMenuCut" xml:space="preserve">
+    <value>قص</value>
+  </data>
+  <data name="ContextMenuOpen" xml:space="preserve">
+    <value>إفتح</value>
+  </data>
+  <data name="ContextMenuOpenPath" xml:space="preserve">
+    <value>إفتح المسار</value>
+  </data>
+  <data name="ContextMenuOpenWinContext" xml:space="preserve">
+    <value>إظهار خيارات أكثر</value>
+  </data>
+  <data name="ContextMenuOpenWith" xml:space="preserve">
+    <value>فتح باستخدام...</value>
+  </data>
+  <data name="ContextMenuOpenWithChooseApp" xml:space="preserve">
+    <value>اختر تطبيق</value>
+  </data>
+  <data name="ContextMenuOpenWithNoRules" xml:space="preserve">
+    <value>لا توجد قواعد محددة</value>
+  </data>
+  <data name="ContextMenuPaste" xml:space="preserve">
+    <value>لصق</value>
+  </data>
+  <data name="ContextMenuProperties" xml:space="preserve">
+    <value>خصائص</value>
+  </data>
+  <data name="ContextMenuRunAsAdmin" xml:space="preserve">
+    <value>تشغيل كمسؤول</value>
+  </data>
+  <data name="ContextMenuShowInEverything" xml:space="preserve">
+    <value>اعرض في Everything</value>
+  </data>
+  <data name="DefaultFilterAll" xml:space="preserve">
+    <value>الكل</value>
+  </data>
+  <data name="DefaultFilterFile" xml:space="preserve">
+    <value>ملف</value>
+  </data>
+  <data name="DefaultFilterFolder" xml:space="preserve">
+    <value>مجلد</value>
+  </data>
+  <data name="ItemTemplateCompact" xml:space="preserve">
+    <value>مضغوط</value>
+  </data>
+  <data name="ItemTemplateCompactDetailed" xml:space="preserve">
+    <value>مضغوط (مفصل)</value>
+  </data>
+  <data name="ItemTemplateNormal" xml:space="preserve">
+    <value>عادي</value>
+  </data>
+  <data name="ItemTemplateNormalDetailed" xml:space="preserve">
+    <value>عادي (مفصل)</value>
+  </data>
+  <data name="KeyAlt" xml:space="preserve">
+    <value>Alt</value>
+  </data>
+  <data name="KeyCtrl" xml:space="preserve">
+    <value>Ctrl</value>
+  </data>
+  <data name="KeyShift" xml:space="preserve">
+    <value>Shift</value>
+  </data>
+  <data name="KeyWin" xml:space="preserve">
+    <value>Win</value>
+  </data>
+  <data name="MessageBoxCopyException" xml:space="preserve">
+    <value>هل ترغب في نسخ المحتوى المُستثنى إلى الحافظة؟</value>
+  </data>
+  <data name="MessageBoxErrorTitle" xml:space="preserve">
+    <value>حدث خطأ</value>
+  </data>
+  <data name="MessageBoxFailedToCopyFile" xml:space="preserve">
+    <value>فشل فى نسخ الملف.</value>
+  </data>
+  <data name="MessageBoxFailedToCopyPath" xml:space="preserve">
+    <value>فشل في نسخ المسار.</value>
+  </data>
+  <data name="MessageBoxFailedToOpen" xml:space="preserve">
+    <value>فشل في فتح نتيجة البحث.</value>
+  </data>
+  <data name="MessageBoxFailedToOpenDialog" xml:space="preserve">
+    <value>فشل فتح مربع الحوار.</value>
+  </data>
+  <data name="MessageBoxFailedToOpenPath" xml:space="preserve">
+    <value>فشل فتح المسار.</value>
+  </data>
+  <data name="MessageBoxFailedToRegisterHotkey" xml:space="preserve">
+    <value>فشل في تسجيل مفتاح الاختصار. قد يكون قيد الاستخدام من قبل تطبيق آخر.</value>
+  </data>
+  <data name="MessageBoxFailedToRunCommand" xml:space="preserve">
+    <value>فشل في تشغيل الأمر</value>
+  </data>
+  <data name="MessageBoxFastSortUnavailable" xml:space="preserve">
+    <value>لاستخدام هذا الفرز، يجب تمكين "الفرز السريع" في الإعدادات.</value>
+  </data>
+  <data name="MessageBoxFastSortUnavailableTitle" xml:space="preserve">
+    <value>الفرز السريع غير مفعل</value>
+  </data>
+  <data name="MessageBoxRegExInvalid" xml:space="preserve">
+    <value>عبارة عادية واحدة على الأقل غير صحيحة.</value>
+  </data>
+  <data name="MessageBoxRuleNameEmpty" xml:space="preserve">
+    <value>قوانين الأسماء يجب أن لا تكون فارغة.</value>
+  </data>
+  <data name="MessageBoxSelectEverythingExe" xml:space="preserve">
+    <value>الرجاء تحديد Everything.exe...</value>
+  </data>
+  <data name="MessageBoxSelectFiltersCsv" xml:space="preserve">
+    <value>الرجاء تحديد ملف "Filters.csv". افتراضيًا يمكن العثور عليه في "%APPDATA%\Everything". قد يختلف موقع هذا الملف وفقاً لخياراتك الخاصة عند التثبيت. إذا كان الملف غير موجود، فهذا يعني أنك لم تقم بإجراء تغييرات على الفلاتر الافتراضية.</value>
+  </data>
+  <data name="MessageBoxSelectFiltersCsvTitle" xml:space="preserve">
+    <value>لم يتم العثور على الملف Filters.csv</value>
+  </data>
+  <data name="MessageBoxUnhandledExceptionTitle" xml:space="preserve">
+    <value>حدث استثناء غير معالج</value>
+  </data>
+  <data name="RulesAutoApply" xml:space="preserve">
+    <value>تطبيق القواعد تلقائياً بناءً على الشرط</value>
+  </data>
+  <data name="RulesCancel" xml:space="preserve">
+    <value>إلغاء</value>
+  </data>
+  <data name="RulesCommand" xml:space="preserve">
+    <value>أمر</value>
+  </data>
+  <data name="RulesName" xml:space="preserve">
+    <value>الإسم</value>
+  </data>
+  <data name="RulesRegularExpression" xml:space="preserve">
+    <value>تعبير عادي</value>
+  </data>
+  <data name="RulesSave" xml:space="preserve">
+    <value>حفظ</value>
+  </data>
+  <data name="RulesType" xml:space="preserve">
+    <value>نوع</value>
+  </data>
+  <data name="RulesWindowText" xml:space="preserve">
+    <value>استخدم %file%و %filename% و %path% كعناصر النائبة في الأوامر.</value>
+  </data>
+  <data name="RulesWindowTitle" xml:space="preserve">
+    <value>القواعد</value>
+  </data>
+  <data name="TextBoxWatermark" xml:space="preserve">
+    <value>بحث باستخدام Everything</value>
+  </data>
+  <data name="SearchResult" xml:space="preserve">
+    <value>عنصر</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>العناصر</value>
+  </data>
+  <data name="SettingsAbout" xml:space="preserve">
+    <value>حول شريط أدوات Everything...</value>
+  </data>
+  <data name="SettingsChangeShortcut" xml:space="preserve">
+    <value>تغيير الاختصار...</value>
+  </data>
+  <data name="SettingsDisableAnimations" xml:space="preserve">
+    <value>تعطيل المؤثرات</value>
+  </data>
+  <data name="SettingsEnableHistory" xml:space="preserve">
+    <value>تمكين تاريخ البحث</value>
+  </data>
+  <data name="SettingsHideEmptyResults" xml:space="preserve">
+    <value>إخفاء البحث الفارغ</value>
+  </data>
+  <data name="SettingsMatchCase" xml:space="preserve">
+    <value>مراعاة حجم الحرف</value>
+  </data>
+  <data name="SettingsMatchPath" xml:space="preserve">
+    <value>مطابقة المسار</value>
+  </data>
+  <data name="SettingsMatchWholeWord" xml:space="preserve">
+    <value>طابق كل الكلمات</value>
+  </data>
+  <data name="SettingsPreferences" xml:space="preserve">
+    <value>الإعدادات</value>
+  </data>
+  <data name="SettingsRegularExpressions" xml:space="preserve">
+    <value>تعبيرات نمطية</value>
+  </data>
+  <data name="SettingsRememberFilter" xml:space="preserve">
+    <value>تذكر التصفية</value>
+  </data>
+  <data name="SettingsReplaceStartMenuSearch" xml:space="preserve">
+    <value>استبدال البحث في قائمة إبداء الخاصه Windows (تجريبي)</value>
+  </data>
+  <data name="SettingsRules" xml:space="preserve">
+    <value>القواعد...</value>
+  </data>
+  <data name="SettingsSetInstanceName" xml:space="preserve">
+    <value>تعيين اسم النموذج...</value>
+  </data>
+  <data name="SettingsShowQuickToggles" xml:space="preserve">
+    <value>عرض التبديلات سريعة</value>
+  </data>
+  <data name="SettingsShowResultsCount" xml:space="preserve">
+    <value>عرض عدد النتائج</value>
+  </data>
+  <data name="SettingsSortBy" xml:space="preserve">
+    <value>الفرز حسب</value>
+  </data>
+  <data name="SettingsTheme" xml:space="preserve">
+    <value>المظهر</value>
+  </data>
+  <data name="SettingsThemeAuto" xml:space="preserve">
+    <value>مزامنة المظهر</value>
+  </data>
+  <data name="SettingsThumbnailsEnabled" xml:space="preserve">
+    <value>تمكين الصور المصغرة</value>
+  </data>
+  <data name="SettingsUseEverythingFilters" xml:space="preserve">
+    <value>استخدام فلاتر Everything</value>
+  </data>
+  <data name="SettingsView" xml:space="preserve">
+    <value>عرض</value>
+  </data>
+  <data name="ShortcutOK" xml:space="preserve">
+    <value>موافق</value>
+  </data>
+  <data name="ShortcutWindowTitle" xml:space="preserve">
+    <value>أدخل الاختصار...</value>
+  </data>
+  <data name="SortByAttributesAscending" xml:space="preserve">
+    <value>خصائص تصاعدية</value>
+  </data>
+  <data name="SortByAttributesDescending" xml:space="preserve">
+    <value>الخصائص تنازلية</value>
+  </data>
+  <data name="SortByDateAccessedAscending" xml:space="preserve">
+    <value>تاريخ الدخول تصاعديا</value>
+  </data>
+  <data name="SortByDateAccessedDescending" xml:space="preserve">
+    <value>تاريخ الدخول تنازليا</value>
+  </data>
+  <data name="SortByDateCreatedAscending" xml:space="preserve">
+    <value>تاريخ الإنشاء تصاعديا</value>
+  </data>
+  <data name="SortByDateCreatedDescending" xml:space="preserve">
+    <value>تاريخ الإنشاء تنازليا</value>
+  </data>
+  <data name="SortByDateModifiedAscending" xml:space="preserve">
+    <value>تاريخ التعديل تصاعديا</value>
+  </data>
+  <data name="SortByDateModifiedDescending" xml:space="preserve">
+    <value>تاريخ التعديل تنازليا</value>
+  </data>
+  <data name="SortByDateRecentlyChangedAscending" xml:space="preserve">
+    <value>تم تغييره حديثًا تصاعديًا</value>
+  </data>
+  <data name="SortByDateRecentlyChangedDescending" xml:space="preserve">
+    <value>تم تغييره حديثًا تنازليًا</value>
+  </data>
+  <data name="SortByDateRunAscending" xml:space="preserve">
+    <value>تاريخ التشغيل تصاعديًا</value>
+  </data>
+  <data name="SortByDateRunDescending" xml:space="preserve">
+    <value>تاريخ التشغيل - تنازليًا</value>
+  </data>
+  <data name="SortByExtensionAscending" xml:space="preserve">
+    <value>امتداد الملف - تصاعديًا</value>
+  </data>
+  <data name="SortByExtensionDescending" xml:space="preserve">
+    <value>ملحقات تنازليًا</value>
+  </data>
+  <data name="SortByFileListFilenameAscending" xml:space="preserve">
+    <value>"اسم ملف" قائمة الملف تصاعديًا</value>
+  </data>
+  <data name="SortByFileListFilenameDescending" xml:space="preserve">
+    <value>اسم "قائمة الملفات" - تنازليًا</value>
+  </data>
+  <data name="SortByNameAscending" xml:space="preserve">
+    <value>الاسم تصاعديًا</value>
+  </data>
+  <data name="SortByNameDescending" xml:space="preserve">
+    <value>الاسم تنازليًا</value>
+  </data>
+  <data name="SortByPathAscending" xml:space="preserve">
+    <value>المسار تصاعديًا</value>
+  </data>
+  <data name="SortByPathDescending" xml:space="preserve">
+    <value>المسار تنازليًا</value>
+  </data>
+  <data name="SortByRunCountAscending" xml:space="preserve">
+    <value>عدد مرات التشغيل تصاعديًا</value>
+  </data>
+  <data name="SortByRunCountDescending" xml:space="preserve">
+    <value>عدد مرات التشغيل تنازليًا</value>
+  </data>
+  <data name="SortBySizeAscending" xml:space="preserve">
+    <value>الحجم تصاعديًا</value>
+  </data>
+  <data name="SortBySizeDescending" xml:space="preserve">
+    <value>الحجم تنازليًا</value>
+  </data>
+  <data name="SortByTypeNameAscending" xml:space="preserve">
+    <value>أسم النوع الملف تصاعديًا</value>
+  </data>
+  <data name="SortByTypeNameDescending" xml:space="preserve">
+    <value>أسم النوع الملف تنازليًا</value>
+  </data>
+  <data name="ThemeDark" xml:space="preserve">
+    <value>مظلم</value>
+  </data>
+  <data name="ThemeLight" xml:space="preserve">
+    <value>فاتح</value>
+  </data>
+  <data name="UserFilterAudio" xml:space="preserve">
+    <value>الصوت</value>
+  </data>
+  <data name="UserFilterCompressed" xml:space="preserve">
+    <value>مضغوط</value>
+  </data>
+  <data name="UserFilterDocument" xml:space="preserve">
+    <value>مستند</value>
+  </data>
+  <data name="UserFilterExecutable" xml:space="preserve">
+    <value>قابل للتنفيذ</value>
+  </data>
+  <data name="UserFilterPicture" xml:space="preserve">
+    <value>صورة</value>
+  </data>
+  <data name="UserFilterPlaceholder" xml:space="preserve">
+    <value>أكثر</value>
+  </data>
+  <data name="UserFilterVideo" xml:space="preserve">
+    <value>فيديو</value>
+  </data>
+  <data name="UpdateBannerText" xml:space="preserve">
+    <value>التحديث متوفر:</value>
+  </data>
+  <data name="UpdateBannerSkip" xml:space="preserve">
+    <value>تخطي</value>
+  </data>
+  <data name="UpdateBannerDownload" xml:space="preserve">
+    <value>تحميل</value>
+  </data>
+  <data name="SettingsCheckForUpdates" xml:space="preserve">
+    <value>التحقق تلقائياً من التحديثات</value>
+  </data>
+  <data name="SettingsSelectFirstResult" xml:space="preserve">
+    <value>تحديد النتيجة الأولى</value>
+  </data>
+  <data name="SettingsDoubleClickToOpen" xml:space="preserve">
+    <value>النقر المزدوج للفتح</value>
+  </data>
+</root>
